@@ -100,8 +100,8 @@ npm start
 
 | Role | Email | Password |
 | :--- | :--- | :--- |
-| **Admin** | `admin@dropyhub.com` | `password123` |
-| **Project Manager** | `pm@dropyhub.com` | `password123` |
+| **Admin** | `admin@dropyhub.com` | `your_admin_password` |
+| **Project Manager** | `pm@dropyhub.com` | `your_pm_password` |
 | **Team Member** | `dev1@dropyhub.com` | `password123` |
 
 ---
