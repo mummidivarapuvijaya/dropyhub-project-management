@@ -18,7 +18,10 @@ const sendEmail = async (options) => {
     auth: {
       user,
       pass
-    }
+    },
+    connectionTimeout: 8000, // 8s connection timeout
+    greetingTimeout: 8000,
+    socketTimeout: 10000
   };
 
   // If host is smtp.gmail.com, add explicit TLS configuration for Gmail App Passwords
